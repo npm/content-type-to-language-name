@@ -15,14 +15,14 @@ npm install content-type-to-language-name
 
 You can retrieve the language name by using the default method:
 
-```
+```js
 const getLanguage = require('content-type-to-language-name')
 getLanguage('application/javascript') // javascript
 ```
 
 also the raw map is available:
 
-```
+```js
 const contentTypeToLanguageName = require('content-type-to-language-name').map
 ```
 

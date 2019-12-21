@@ -1,0 +1,29 @@
+{
+  "name": "content-type-to-language-name",
+  "version": "1.0.0",
+  "description": "Maps a list of content types to a list of language names",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap",
+    "snap": "tap",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "map",
+    "content-type",
+    "language"
+  ],
+  "author": "Ruy Adorno",
+  "license": "ISC",
+  "tap": {
+    "check-coverage": true
+  },
+  "devDependencies": {
+    "tap": "^14.10.5"
+  }
+}

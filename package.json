@@ -21,6 +21,6 @@
   "author": "Ruy Adorno",
   "license": "ISC",
   "devDependencies": {
-    "tap": "^19.0.2"
+    "tap": "^21.0.0"
   }
 }

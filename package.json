@@ -1,6 +1,6 @@
 {
   "name": "content-type-to-language-name",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Maps a list of content types to a list of language names",
   "main": "index.js",
   "scripts": {
